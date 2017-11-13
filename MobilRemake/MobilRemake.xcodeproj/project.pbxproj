@@ -1,0 +1,1309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440283681E02807A00BBAE47 /* HaberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440283661E02807A00BBAE47 /* HaberTableViewCell.swift */; };
+		440283691E02807A00BBAE47 /* HaberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 440283671E02807A00BBAE47 /* HaberTableViewCell.xib */; };
+		60F93FAD9DEF9E29FDD9B907 /* Pods_MobilRemakeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4E96650CF768AE311DC49 /* Pods_MobilRemakeUITests.framework */; };
+		6F315699570D11D8E3A18938 /* Pods_MobilRemake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0889172BA6436B0787E3F9D0 /* Pods_MobilRemake.framework */; };
+		8407B50E1E0746B10065FE53 /* FiltreleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407B50D1E0746B10065FE53 /* FiltreleViewController.swift */; };
+		8407B5111E074A580065FE53 /* FiltreleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407B50F1E074A580065FE53 /* FiltreleTableViewCell.swift */; };
+		8407B5121E074A580065FE53 /* FiltreleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8407B5101E074A580065FE53 /* FiltreleTableViewCell.xib */; };
+		84084BE21E1ED38000586EC5 /* AkademikTakvimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84084BE01E1ED38000586EC5 /* AkademikTakvimTableViewCell.swift */; };
+		84084BE31E1ED38000586EC5 /* AkademikTakvimTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84084BE11E1ED38000586EC5 /* AkademikTakvimTableViewCell.xib */; };
+		84084BE61E1ED39300586EC5 /* PersonelAramaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84084BE41E1ED39300586EC5 /* PersonelAramaTableViewCell.swift */; };
+		84084BE71E1ED39300586EC5 /* PersonelAramaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84084BE51E1ED39300586EC5 /* PersonelAramaTableViewCell.xib */; };
+		84084BE91E1EDFD500586EC5 /* AkademikTakvimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84084BE81E1EDFD500586EC5 /* AkademikTakvimViewController.swift */; };
+		84106B7B1DFF27F100052407 /* MesajViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84106B7A1DFF27F100052407 /* MesajViewController.swift */; };
+		84106B7D1DFF572600052407 /* BlurEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84106B7C1DFF572600052407 /* BlurEffectViewController.swift */; };
+		843841951E0A6509001CFED1 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843841941E0A6509001CFED1 /* GradientView.swift */; };
+		844B127D1DF18D71008E37C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B127C1DF18D71008E37C0 /* AppDelegate.swift */; };
+		844B127F1DF18D71008E37C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B127E1DF18D71008E37C0 /* ViewController.swift */; };
+		844B12821DF18D71008E37C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844B12801DF18D71008E37C0 /* Main.storyboard */; };
+		844B12841DF18D71008E37C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844B12831DF18D71008E37C0 /* Assets.xcassets */; };
+		844B12871DF18D71008E37C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844B12851DF18D71008E37C0 /* LaunchScreen.storyboard */; };
+		844B12921DF18D71008E37C0 /* MobilRemakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12911DF18D71008E37C0 /* MobilRemakeTests.swift */; };
+		844B129D1DF18D71008E37C0 /* MobilRemakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B129C1DF18D71008E37C0 /* MobilRemakeUITests.swift */; };
+		844B12AC1DF18FE3008E37C0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12AB1DF18FE3008E37C0 /* BaseViewController.swift */; };
+		844B12B01DF191FC008E37C0 /* KullaniciKapaliHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12AF1DF191FC008E37C0 /* KullaniciKapaliHelper.swift */; };
+		844B12B21DF19220008E37C0 /* KullaniciHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12B11DF19220008E37C0 /* KullaniciHelper.swift */; };
+		844B12B41DF19681008E37C0 /* SharedPreferencesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12B31DF19681008E37C0 /* SharedPreferencesHelper.swift */; };
+		844B12B61DF196C7008E37C0 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12B51DF196C7008E37C0 /* JsonParser.swift */; };
+		844B12B81DF196F2008E37C0 /* ServiceMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12B71DF196F2008E37C0 /* ServiceMessageModel.swift */; };
+		844B12BB1DF19784008E37C0 /* KullaniciBilgileriniGetirResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12BA1DF19784008E37C0 /* KullaniciBilgileriniGetirResponse.swift */; };
+		844B12BE1DF197C3008E37C0 /* KullaniciBilgileriniGetirParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12BD1DF197C3008E37C0 /* KullaniciBilgileriniGetirParameters.swift */; };
+		844B12C31DF198A3008E37C0 /* KullaniciBilgileriniGetirService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12C21DF198A3008E37C0 /* KullaniciBilgileriniGetirService.swift */; };
+		844B12C71DF198EB008E37C0 /* IOnTCJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12C61DF198EB008E37C0 /* IOnTCJsonParser.swift */; };
+		844B12CA1DF19920008E37C0 /* IKullaniciBilgileriniGetir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12C91DF19920008E37C0 /* IKullaniciBilgileriniGetir.swift */; };
+		844B12CF1DF1996C008E37C0 /* EnumMethodlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12CE1DF1996C008E37C0 /* EnumMethodlar.swift */; };
+		844B12D11DF19980008E37C0 /* EnumAdresler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12D01DF19980008E37C0 /* EnumAdresler.swift */; };
+		844B12D31DF199E5008E37C0 /* BaseParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12D21DF199E5008E37C0 /* BaseParameters.swift */; };
+		844B12D51DF19A37008E37C0 /* IOnTCServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12D41DF19A37008E37C0 /* IOnTCServiceError.swift */; };
+		844B12D71DF19B26008E37C0 /* ServiceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12D61DF19B26008E37C0 /* ServiceBase.swift */; };
+		844B12DA1DF19BB6008E37C0 /* KullaniciBilgiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12D91DF19BB6008E37C0 /* KullaniciBilgiModel.swift */; };
+		844B12DD1DF19BD5008E37C0 /* BirimBolumYardimci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12DC1DF19BD5008E37C0 /* BirimBolumYardimci.swift */; };
+		844B12E01DF19C00008E37C0 /* NotificationTurModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12DF1DF19C00008E37C0 /* NotificationTurModel.swift */; };
+		844B12E31DF19C35008E37C0 /* Ortak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12E21DF19C35008E37C0 /* Ortak.swift */; };
+		844B12E51DF1A9A8008E37C0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B12E41DF1A9A8008E37C0 /* Reachability.swift */; };
+		8453B4A61E251B48001B97EC /* PersonelSoldanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453B4A41E251B48001B97EC /* PersonelSoldanTableViewCell.swift */; };
+		8453B4A71E251B48001B97EC /* PersonelSoldanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8453B4A51E251B48001B97EC /* PersonelSoldanTableViewCell.xib */; };
+		845CDA8B1E2994E20088B4F8 /* KarsilamaEtkinlikTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CDA891E2994E20088B4F8 /* KarsilamaEtkinlikTableViewCell.swift */; };
+		845CDA8C1E2994E20088B4F8 /* KarsilamaEtkinlikTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845CDA8A1E2994E20088B4F8 /* KarsilamaEtkinlikTableViewCell.xib */; };
+		845DBF5B1DF4A8A700929A04 /* HexStringToUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DBF5A1DF4A8A700929A04 /* HexStringToUIColor.swift */; };
+		846BFF791E2ABE4A009DE36C /* GirisYapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BFF771E2ABE4A009DE36C /* GirisYapTableViewCell.swift */; };
+		846BFF7A1E2ABE4A009DE36C /* GirisYapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846BFF781E2ABE4A009DE36C /* GirisYapTableViewCell.xib */; };
+		84904D2D1DFC878D00A98439 /* YemekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84904D2B1DFC878D00A98439 /* YemekTableViewCell.swift */; };
+		84904D2E1DFC878D00A98439 /* YemekTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84904D2C1DFC878D00A98439 /* YemekTableViewCell.xib */; };
+		849603531DFB44FC00C2C68C /* VKCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849603521DFB44FC00C2C68C /* VKCheckBox.swift */; };
+		849603561DFB463C00C2C68C /* CheckBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849603541DFB463C00C2C68C /* CheckBoxTableViewCell.swift */; };
+		849603571DFB463C00C2C68C /* CheckBoxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849603551DFB463C00C2C68C /* CheckBoxTableViewCell.xib */; };
+		8496035A1DFB485700C2C68C /* BagliBirimlerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849603581DFB485700C2C68C /* BagliBirimlerTableViewCell.swift */; };
+		8496035B1DFB485700C2C68C /* BagliBirimlerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849603591DFB485700C2C68C /* BagliBirimlerTableViewCell.xib */; };
+		8496035E1DFB486400C2C68C /* BildirimTurleriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496035C1DFB486400C2C68C /* BildirimTurleriTableViewCell.swift */; };
+		8496035F1DFB486400C2C68C /* BildirimTurleriTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8496035D1DFB486400C2C68C /* BildirimTurleriTableViewCell.xib */; };
+		849D72411E1D7237000A2529 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D72401E1D7237000A2529 /* LaunchViewController.swift */; };
+		849D72431E1D9842000A2529 /* KarsilamaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D72421E1D9842000A2529 /* KarsilamaViewController.swift */; };
+		84A1B3401E03E9260087816B /* SectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1B33E1E03E9260087816B /* SectionTableViewCell.swift */; };
+		84A1B3411E03E9260087816B /* SectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A1B33F1E03E9260087816B /* SectionTableViewCell.xib */; };
+		84A6306E1E02F05700B94E4F /* EtkinlikTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6306C1E02F05700B94E4F /* EtkinlikTableViewCell.swift */; };
+		84A6306F1E02F05700B94E4F /* EtkinlikTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6306D1E02F05700B94E4F /* EtkinlikTableViewCell.xib */; };
+		84A9F4291E254912008F17C8 /* PersonelAramaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9F4281E254912008F17C8 /* PersonelAramaViewController.swift */; };
+		84B731571E01F2D700CC362F /* AkisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B731561E01F2D700CC362F /* AkisViewController.swift */; };
+		84B7315A1E02008B00CC362F /* NotObsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B731581E02008B00CC362F /* NotObsTableViewCell.swift */; };
+		84B7315B1E02008B00CC362F /* NotObsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B731591E02008B00CC362F /* NotObsTableViewCell.xib */; };
+		84B7315E1E02067900CC362F /* DuyuruTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7315C1E02067900CC362F /* DuyuruTableViewCell.swift */; };
+		84B7315F1E02067900CC362F /* DuyuruTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B7315D1E02067900CC362F /* DuyuruTableViewCell.xib */; };
+		84B731621E020B6600CC362F /* HesapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B731601E020B6600CC362F /* HesapTableViewCell.swift */; };
+		84B731631E020B6600CC362F /* HesapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B731611E020B6600CC362F /* HesapTableViewCell.xib */; };
+		84C260791DF6F32500A9E322 /* OnlineOdemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C260781DF6F32500A9E322 /* OnlineOdemeViewController.swift */; };
+		84C2607B1DF6FC7D00A9E322 /* IletisimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2607A1DF6FC7D00A9E322 /* IletisimViewController.swift */; };
+		84C2607E1DF6FFE500A9E322 /* fontello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C2607D1DF6FFE500A9E322 /* fontello.ttf */; };
+		84C260801DF6FFEC00A9E322 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C2607F1DF6FFEC00A9E322 /* fontawesome-webfont.ttf */; };
+		84C260831DF6FFF500A9E322 /* FarnhamDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C260811DF6FFF500A9E322 /* FarnhamDisplay-Regular.ttf */; };
+		84C260841DF6FFF500A9E322 /* FarnhamDisplay-RegularItal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C260821DF6FFF500A9E322 /* FarnhamDisplay-RegularItal.ttf */; };
+		84C260861DF7002000A9E322 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C260851DF7002000A9E322 /* Enum.swift */; };
+		84C260881DF7004D00A9E322 /* SwiftFontello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C260871DF7004D00A9E322 /* SwiftFontello.swift */; };
+		84C2608A1DF7008900A9E322 /* SwiftFontelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C260891DF7008900A9E322 /* SwiftFontelloView.swift */; };
+		84C2608C1DF707D300A9E322 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2608B1DF707D300A9E322 /* MenuViewController.swift */; };
+		84C2608F1DF70A7200A9E322 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2608D1DF70A7200A9E322 /* HeaderTableViewCell.swift */; };
+		84C260901DF70A7200A9E322 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C2608E1DF70A7200A9E322 /* HeaderTableViewCell.xib */; };
+		84C260931DF70A8700A9E322 /* OnlineOdemeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C260911DF70A8700A9E322 /* OnlineOdemeTableViewCell.swift */; };
+		84C260941DF70A8700A9E322 /* OnlineOdemeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C260921DF70A8700A9E322 /* OnlineOdemeTableViewCell.xib */; };
+		84C260971DF70A9100A9E322 /* AyarlarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C260951DF70A9100A9E322 /* AyarlarTableViewCell.swift */; };
+		84C260981DF70A9100A9E322 /* AyarlarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C260961DF70A9100A9E322 /* AyarlarTableViewCell.xib */; };
+		84C2609B1DF7298300A9E322 /* IletisimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C260991DF7298300A9E322 /* IletisimTableViewCell.swift */; };
+		84C2609C1DF7298300A9E322 /* IletisimTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C2609A1DF7298300A9E322 /* IletisimTableViewCell.xib */; };
+		84C2609F1DF7332E00A9E322 /* OturumuKapatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2609D1DF7332E00A9E322 /* OturumuKapatTableViewCell.swift */; };
+		84C260A01DF7332E00A9E322 /* OturumuKapatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C2609E1DF7332E00A9E322 /* OturumuKapatTableViewCell.xib */; };
+		84C260A21DF7365E00A9E322 /* AyarlarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C260A11DF7365E00A9E322 /* AyarlarViewController.swift */; };
+		84C260A61DF7384600A9E322 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C260A51DF7384600A9E322 /* TabBarViewController.swift */; };
+		84D342391DFBF69F007EE064 /* AkisTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D342381DFBF69F007EE064 /* AkisTableViewController.swift */; };
+		84D3423C1DFC0A8F007EE064 /* MesajTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3423B1DFC0A8F007EE064 /* MesajTableViewController.swift */; };
+		84D3423F1DFC0AFE007EE064 /* MesajTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3423D1DFC0AFE007EE064 /* MesajTableViewCell.swift */; };
+		84D342401DFC0AFE007EE064 /* MesajTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D3423E1DFC0AFE007EE064 /* MesajTableViewCell.xib */; };
+		84D342431DFC557D007EE064 /* BirimlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D342421DFC557D007EE064 /* BirimlerViewController.swift */; };
+		84E69F4D1E26AF02009C2B4D /* Mesaj2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E69F4B1E26AF02009C2B4D /* Mesaj2TableViewCell.swift */; };
+		84E69F4E1E26AF02009C2B4D /* Mesaj2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E69F4C1E26AF02009C2B4D /* Mesaj2TableViewCell.xib */; };
+		84F7621E1E26131400C73FC8 /* BirimAramaMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7621D1E26131400C73FC8 /* BirimAramaMapViewController.swift */; };
+		84F762211E26144D00C73FC8 /* BirimAramaMapHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7621F1E26144D00C73FC8 /* BirimAramaMapHeaderTableViewCell.swift */; };
+		84F762221E26144D00C73FC8 /* BirimAramaMapHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F762201E26144D00C73FC8 /* BirimAramaMapHeaderTableViewCell.xib */; };
+		84F762251E26155800C73FC8 /* BirimAramaMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F762231E26155800C73FC8 /* BirimAramaMapTableViewCell.swift */; };
+		84F762261E26155800C73FC8 /* BirimAramaMapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F762241E26155800C73FC8 /* BirimAramaMapTableViewCell.xib */; };
+		84F7AA171E040932005119A4 /* BlurEffectWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7AA161E040932005119A4 /* BlurEffectWebViewController.swift */; };
+		F04E6CA1476DC93A6EE849F5 /* Pods_MobilRemakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37287F785C4B47ADE024F7DF /* Pods_MobilRemakeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844B128E1DF18D71008E37C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844B12711DF18D70008E37C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844B12781DF18D70008E37C0;
+			remoteInfo = MobilRemake;
+		};
+		844B12991DF18D71008E37C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844B12711DF18D70008E37C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844B12781DF18D70008E37C0;
+			remoteInfo = MobilRemake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0889172BA6436B0787E3F9D0 /* Pods_MobilRemake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilRemake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37287F785C4B47ADE024F7DF /* Pods_MobilRemakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilRemakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		440283661E02807A00BBAE47 /* HaberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaberTableViewCell.swift; sourceTree = "<group>"; };
+		440283671E02807A00BBAE47 /* HaberTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HaberTableViewCell.xib; sourceTree = "<group>"; };
+		463F603DE88A8C907FAF5A9A /* Pods-MobilRemakeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilRemakeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobilRemakeUITests/Pods-MobilRemakeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		666287F0D5F2574CCDE28335 /* Pods-MobilRemake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilRemake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobilRemake/Pods-MobilRemake.debug.xcconfig"; sourceTree = "<group>"; };
+		6B39E028501CC39C52D7781C /* Pods-MobilRemakeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilRemakeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobilRemakeUITests/Pods-MobilRemakeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8407B50D1E0746B10065FE53 /* FiltreleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltreleViewController.swift; sourceTree = "<group>"; };
+		8407B50F1E074A580065FE53 /* FiltreleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltreleTableViewCell.swift; sourceTree = "<group>"; };
+		8407B5101E074A580065FE53 /* FiltreleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FiltreleTableViewCell.xib; sourceTree = "<group>"; };
+		84084BE01E1ED38000586EC5 /* AkademikTakvimTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkademikTakvimTableViewCell.swift; sourceTree = "<group>"; };
+		84084BE11E1ED38000586EC5 /* AkademikTakvimTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AkademikTakvimTableViewCell.xib; sourceTree = "<group>"; };
+		84084BE41E1ED39300586EC5 /* PersonelAramaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonelAramaTableViewCell.swift; sourceTree = "<group>"; };
+		84084BE51E1ED39300586EC5 /* PersonelAramaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonelAramaTableViewCell.xib; sourceTree = "<group>"; };
+		84084BE81E1EDFD500586EC5 /* AkademikTakvimViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkademikTakvimViewController.swift; sourceTree = "<group>"; };
+		84106B7A1DFF27F100052407 /* MesajViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MesajViewController.swift; sourceTree = "<group>"; };
+		84106B7C1DFF572600052407 /* BlurEffectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurEffectViewController.swift; sourceTree = "<group>"; };
+		843841931E0A64F4001CFED1 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		843841941E0A6509001CFED1 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		844B12791DF18D71008E37C0 /* MobilRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844B127C1DF18D71008E37C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		844B127E1DF18D71008E37C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		844B12811DF18D71008E37C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844B12831DF18D71008E37C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844B12861DF18D71008E37C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844B12881DF18D71008E37C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844B128D1DF18D71008E37C0 /* MobilRemakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobilRemakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844B12911DF18D71008E37C0 /* MobilRemakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilRemakeTests.swift; sourceTree = "<group>"; };
+		844B12931DF18D71008E37C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844B12981DF18D71008E37C0 /* MobilRemakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobilRemakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844B129C1DF18D71008E37C0 /* MobilRemakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilRemakeUITests.swift; sourceTree = "<group>"; };
+		844B129E1DF18D71008E37C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844B12AB1DF18FE3008E37C0 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		844B12AF1DF191FC008E37C0 /* KullaniciKapaliHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KullaniciKapaliHelper.swift; sourceTree = "<group>"; };
+		844B12B11DF19220008E37C0 /* KullaniciHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KullaniciHelper.swift; sourceTree = "<group>"; };
+		844B12B31DF19681008E37C0 /* SharedPreferencesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedPreferencesHelper.swift; sourceTree = "<group>"; };
+		844B12B51DF196C7008E37C0 /* JsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		844B12B71DF196F2008E37C0 /* ServiceMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceMessageModel.swift; sourceTree = "<group>"; };
+		844B12BA1DF19784008E37C0 /* KullaniciBilgileriniGetirResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KullaniciBilgileriniGetirResponse.swift; sourceTree = "<group>"; };
+		844B12BD1DF197C3008E37C0 /* KullaniciBilgileriniGetirParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KullaniciBilgileriniGetirParameters.swift; sourceTree = "<group>"; };
+		844B12C21DF198A3008E37C0 /* KullaniciBilgileriniGetirService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KullaniciBilgileriniGetirService.swift; sourceTree = "<group>"; };
+		844B12C61DF198EB008E37C0 /* IOnTCJsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOnTCJsonParser.swift; sourceTree = "<group>"; };
+		844B12C91DF19920008E37C0 /* IKullaniciBilgileriniGetir.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IKullaniciBilgileriniGetir.swift; sourceTree = "<group>"; };
+		844B12CE1DF1996C008E37C0 /* EnumMethodlar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumMethodlar.swift; sourceTree = "<group>"; };
+		844B12D01DF19980008E37C0 /* EnumAdresler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumAdresler.swift; sourceTree = "<group>"; };
+		844B12D21DF199E5008E37C0 /* BaseParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseParameters.swift; sourceTree = "<group>"; };
+		844B12D41DF19A37008E37C0 /* IOnTCServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOnTCServiceError.swift; sourceTree = "<group>"; };
+		844B12D61DF19B26008E37C0 /* ServiceBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceBase.swift; sourceTree = "<group>"; };
+		844B12D91DF19BB6008E37C0 /* KullaniciBilgiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KullaniciBilgiModel.swift; sourceTree = "<group>"; };
+		844B12DC1DF19BD5008E37C0 /* BirimBolumYardimci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirimBolumYardimci.swift; sourceTree = "<group>"; };
+		844B12DF1DF19C00008E37C0 /* NotificationTurModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTurModel.swift; sourceTree = "<group>"; };
+		844B12E21DF19C35008E37C0 /* Ortak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ortak.swift; sourceTree = "<group>"; };
+		844B12E41DF1A9A8008E37C0 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		8453B4A41E251B48001B97EC /* PersonelSoldanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonelSoldanTableViewCell.swift; sourceTree = "<group>"; };
+		8453B4A51E251B48001B97EC /* PersonelSoldanTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonelSoldanTableViewCell.xib; sourceTree = "<group>"; };
+		845CDA891E2994E20088B4F8 /* KarsilamaEtkinlikTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KarsilamaEtkinlikTableViewCell.swift; sourceTree = "<group>"; };
+		845CDA8A1E2994E20088B4F8 /* KarsilamaEtkinlikTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KarsilamaEtkinlikTableViewCell.xib; sourceTree = "<group>"; };
+		845DBF5A1DF4A8A700929A04 /* HexStringToUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexStringToUIColor.swift; sourceTree = "<group>"; };
+		846BFF771E2ABE4A009DE36C /* GirisYapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GirisYapTableViewCell.swift; sourceTree = "<group>"; };
+		846BFF781E2ABE4A009DE36C /* GirisYapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GirisYapTableViewCell.xib; sourceTree = "<group>"; };
+		84904D2B1DFC878D00A98439 /* YemekTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YemekTableViewCell.swift; sourceTree = "<group>"; };
+		84904D2C1DFC878D00A98439 /* YemekTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YemekTableViewCell.xib; sourceTree = "<group>"; };
+		849603521DFB44FC00C2C68C /* VKCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKCheckBox.swift; sourceTree = "<group>"; };
+		849603541DFB463C00C2C68C /* CheckBoxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxTableViewCell.swift; sourceTree = "<group>"; };
+		849603551DFB463C00C2C68C /* CheckBoxTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckBoxTableViewCell.xib; sourceTree = "<group>"; };
+		849603581DFB485700C2C68C /* BagliBirimlerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BagliBirimlerTableViewCell.swift; sourceTree = "<group>"; };
+		849603591DFB485700C2C68C /* BagliBirimlerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BagliBirimlerTableViewCell.xib; sourceTree = "<group>"; };
+		8496035C1DFB486400C2C68C /* BildirimTurleriTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BildirimTurleriTableViewCell.swift; sourceTree = "<group>"; };
+		8496035D1DFB486400C2C68C /* BildirimTurleriTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BildirimTurleriTableViewCell.xib; sourceTree = "<group>"; };
+		849D72401E1D7237000A2529 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		849D72421E1D9842000A2529 /* KarsilamaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KarsilamaViewController.swift; sourceTree = "<group>"; };
+		84A1B33E1E03E9260087816B /* SectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionTableViewCell.swift; sourceTree = "<group>"; };
+		84A1B33F1E03E9260087816B /* SectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionTableViewCell.xib; sourceTree = "<group>"; };
+		84A6306C1E02F05700B94E4F /* EtkinlikTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtkinlikTableViewCell.swift; sourceTree = "<group>"; };
+		84A6306D1E02F05700B94E4F /* EtkinlikTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EtkinlikTableViewCell.xib; sourceTree = "<group>"; };
+		84A9F4281E254912008F17C8 /* PersonelAramaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonelAramaViewController.swift; sourceTree = "<group>"; };
+		84B731561E01F2D700CC362F /* AkisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkisViewController.swift; sourceTree = "<group>"; };
+		84B731581E02008B00CC362F /* NotObsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotObsTableViewCell.swift; sourceTree = "<group>"; };
+		84B731591E02008B00CC362F /* NotObsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotObsTableViewCell.xib; sourceTree = "<group>"; };
+		84B7315C1E02067900CC362F /* DuyuruTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuyuruTableViewCell.swift; sourceTree = "<group>"; };
+		84B7315D1E02067900CC362F /* DuyuruTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DuyuruTableViewCell.xib; sourceTree = "<group>"; };
+		84B731601E020B6600CC362F /* HesapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HesapTableViewCell.swift; sourceTree = "<group>"; };
+		84B731611E020B6600CC362F /* HesapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HesapTableViewCell.xib; sourceTree = "<group>"; };
+		84C260781DF6F32500A9E322 /* OnlineOdemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineOdemeViewController.swift; sourceTree = "<group>"; };
+		84C2607A1DF6FC7D00A9E322 /* IletisimViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IletisimViewController.swift; sourceTree = "<group>"; };
+		84C2607D1DF6FFE500A9E322 /* fontello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello.ttf; sourceTree = "<group>"; };
+		84C2607F1DF6FFEC00A9E322 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		84C260811DF6FFF500A9E322 /* FarnhamDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FarnhamDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		84C260821DF6FFF500A9E322 /* FarnhamDisplay-RegularItal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FarnhamDisplay-RegularItal.ttf"; sourceTree = "<group>"; };
+		84C260851DF7002000A9E322 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		84C260871DF7004D00A9E322 /* SwiftFontello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFontello.swift; sourceTree = "<group>"; };
+		84C260891DF7008900A9E322 /* SwiftFontelloView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFontelloView.swift; sourceTree = "<group>"; };
+		84C2608B1DF707D300A9E322 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		84C2608D1DF70A7200A9E322 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		84C2608E1DF70A7200A9E322 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		84C260911DF70A8700A9E322 /* OnlineOdemeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineOdemeTableViewCell.swift; sourceTree = "<group>"; };
+		84C260921DF70A8700A9E322 /* OnlineOdemeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnlineOdemeTableViewCell.xib; sourceTree = "<group>"; };
+		84C260951DF70A9100A9E322 /* AyarlarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyarlarTableViewCell.swift; sourceTree = "<group>"; };
+		84C260961DF70A9100A9E322 /* AyarlarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AyarlarTableViewCell.xib; sourceTree = "<group>"; };
+		84C260991DF7298300A9E322 /* IletisimTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IletisimTableViewCell.swift; sourceTree = "<group>"; };
+		84C2609A1DF7298300A9E322 /* IletisimTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IletisimTableViewCell.xib; sourceTree = "<group>"; };
+		84C2609D1DF7332E00A9E322 /* OturumuKapatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OturumuKapatTableViewCell.swift; sourceTree = "<group>"; };
+		84C2609E1DF7332E00A9E322 /* OturumuKapatTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OturumuKapatTableViewCell.xib; sourceTree = "<group>"; };
+		84C260A11DF7365E00A9E322 /* AyarlarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyarlarViewController.swift; sourceTree = "<group>"; };
+		84C260A51DF7384600A9E322 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		84D342381DFBF69F007EE064 /* AkisTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkisTableViewController.swift; sourceTree = "<group>"; };
+		84D3423B1DFC0A8F007EE064 /* MesajTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MesajTableViewController.swift; sourceTree = "<group>"; };
+		84D3423D1DFC0AFE007EE064 /* MesajTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MesajTableViewCell.swift; sourceTree = "<group>"; };
+		84D3423E1DFC0AFE007EE064 /* MesajTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MesajTableViewCell.xib; sourceTree = "<group>"; };
+		84D342421DFC557D007EE064 /* BirimlerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirimlerViewController.swift; sourceTree = "<group>"; };
+		84E69F4B1E26AF02009C2B4D /* Mesaj2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesaj2TableViewCell.swift; sourceTree = "<group>"; };
+		84E69F4C1E26AF02009C2B4D /* Mesaj2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Mesaj2TableViewCell.xib; sourceTree = "<group>"; };
+		84F7621D1E26131400C73FC8 /* BirimAramaMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirimAramaMapViewController.swift; sourceTree = "<group>"; };
+		84F7621F1E26144D00C73FC8 /* BirimAramaMapHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirimAramaMapHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		84F762201E26144D00C73FC8 /* BirimAramaMapHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BirimAramaMapHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		84F762231E26155800C73FC8 /* BirimAramaMapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirimAramaMapTableViewCell.swift; sourceTree = "<group>"; };
+		84F762241E26155800C73FC8 /* BirimAramaMapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BirimAramaMapTableViewCell.xib; sourceTree = "<group>"; };
+		84F7AA161E040932005119A4 /* BlurEffectWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurEffectWebViewController.swift; sourceTree = "<group>"; };
+		917AF1E231E137CD9E74F591 /* Pods-MobilRemake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilRemake.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobilRemake/Pods-MobilRemake.release.xcconfig"; sourceTree = "<group>"; };
+		A5639804447B8D923FC0FC1F /* Pods-MobilRemakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilRemakeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobilRemakeTests/Pods-MobilRemakeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCD4E96650CF768AE311DC49 /* Pods_MobilRemakeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilRemakeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB56C41AF71220386AC4C45C /* Pods-MobilRemakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilRemakeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobilRemakeTests/Pods-MobilRemakeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844B12761DF18D70008E37C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F315699570D11D8E3A18938 /* Pods_MobilRemake.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844B128A1DF18D71008E37C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04E6CA1476DC93A6EE849F5 /* Pods_MobilRemakeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844B12951DF18D71008E37C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F93FAD9DEF9E29FDD9B907 /* Pods_MobilRemakeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30C90FECA432094B2F462A90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0889172BA6436B0787E3F9D0 /* Pods_MobilRemake.framework */,
+				37287F785C4B47ADE024F7DF /* Pods_MobilRemakeTests.framework */,
+				CCD4E96650CF768AE311DC49 /* Pods_MobilRemakeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8407B50C1E07469D0065FE53 /* Filtrele */ = {
+			isa = PBXGroup;
+			children = (
+				8407B50D1E0746B10065FE53 /* FiltreleViewController.swift */,
+				8407B50F1E074A580065FE53 /* FiltreleTableViewCell.swift */,
+				8407B5101E074A580065FE53 /* FiltreleTableViewCell.xib */,
+			);
+			name = Filtrele;
+			sourceTree = "<group>";
+		};
+		843841921E0A64D6001CFED1 /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				843841931E0A64F4001CFED1 /* GradientView.h */,
+				843841941E0A6509001CFED1 /* GradientView.swift */,
+			);
+			name = GradientView;
+			sourceTree = "<group>";
+		};
+		844B12701DF18D70008E37C0 = {
+			isa = PBXGroup;
+			children = (
+				844B127B1DF18D71008E37C0 /* MobilRemake */,
+				844B12901DF18D71008E37C0 /* MobilRemakeTests */,
+				844B129B1DF18D71008E37C0 /* MobilRemakeUITests */,
+				844B127A1DF18D71008E37C0 /* Products */,
+				B5F7840AD4EAB511F88978DA /* Pods */,
+				30C90FECA432094B2F462A90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		844B127A1DF18D71008E37C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844B12791DF18D71008E37C0 /* MobilRemake.app */,
+				844B128D1DF18D71008E37C0 /* MobilRemakeTests.xctest */,
+				844B12981DF18D71008E37C0 /* MobilRemakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844B127B1DF18D71008E37C0 /* MobilRemake */ = {
+			isa = PBXGroup;
+			children = (
+				845CDA881E29949A0088B4F8 /* KarsilamaEkrani */,
+				843841921E0A64D6001CFED1 /* GradientView */,
+				8407B50C1E07469D0065FE53 /* Filtrele */,
+				84D342411DFC5567007EE064 /* Birimler */,
+				84D3423A1DFC0A7F007EE064 /* MesajTable */,
+				84D342371DFBF687007EE064 /* AkisTable */,
+				84C2607C1DF6FFB100A9E322 /* SwiftFontello */,
+				84C260771DF6F2EB00A9E322 /* SoldanMenu */,
+				844B12E11DF19C25008E37C0 /* HelperClasses */,
+				844B12C41DF198C2008E37C0 /* ServiceConnectionHelper */,
+				844B12AD1DF191DA008E37C0 /* Entities */,
+				844B12AA1DF18FCD008E37C0 /* Base */,
+				844B127C1DF18D71008E37C0 /* AppDelegate.swift */,
+				844B127E1DF18D71008E37C0 /* ViewController.swift */,
+				844B12801DF18D71008E37C0 /* Main.storyboard */,
+				844B12831DF18D71008E37C0 /* Assets.xcassets */,
+				844B12851DF18D71008E37C0 /* LaunchScreen.storyboard */,
+				844B12881DF18D71008E37C0 /* Info.plist */,
+				844B12B31DF19681008E37C0 /* SharedPreferencesHelper.swift */,
+				844B12E41DF1A9A8008E37C0 /* Reachability.swift */,
+				845DBF5A1DF4A8A700929A04 /* HexStringToUIColor.swift */,
+				849603521DFB44FC00C2C68C /* VKCheckBox.swift */,
+				84106B7C1DFF572600052407 /* BlurEffectViewController.swift */,
+				84F7AA161E040932005119A4 /* BlurEffectWebViewController.swift */,
+				849D72401E1D7237000A2529 /* LaunchViewController.swift */,
+			);
+			path = MobilRemake;
+			sourceTree = "<group>";
+		};
+		844B12901DF18D71008E37C0 /* MobilRemakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				844B12911DF18D71008E37C0 /* MobilRemakeTests.swift */,
+				844B12931DF18D71008E37C0 /* Info.plist */,
+			);
+			path = MobilRemakeTests;
+			sourceTree = "<group>";
+		};
+		844B129B1DF18D71008E37C0 /* MobilRemakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				844B129C1DF18D71008E37C0 /* MobilRemakeUITests.swift */,
+				844B129E1DF18D71008E37C0 /* Info.plist */,
+			);
+			path = MobilRemakeUITests;
+			sourceTree = "<group>";
+		};
+		844B12AA1DF18FCD008E37C0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				844B12AB1DF18FE3008E37C0 /* BaseViewController.swift */,
+				844B12D21DF199E5008E37C0 /* BaseParameters.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		844B12AD1DF191DA008E37C0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				844B12DE1DF19BF7008E37C0 /* NotificationTur */,
+				844B12DB1DF19BCC008E37C0 /* BirimBolumYardimci */,
+				844B12D81DF19BA4008E37C0 /* KullaniciBilgi */,
+				844B12BC1DF197AF008E37C0 /* ServiceParameters */,
+				844B12B91DF1976B008E37C0 /* ServiceResponse */,
+				844B12AE1DF191E3008E37C0 /* UygulamaHelper */,
+				844B12B51DF196C7008E37C0 /* JsonParser.swift */,
+				844B12B71DF196F2008E37C0 /* ServiceMessageModel.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		844B12AE1DF191E3008E37C0 /* UygulamaHelper */ = {
+			isa = PBXGroup;
+			children = (
+				844B12AF1DF191FC008E37C0 /* KullaniciKapaliHelper.swift */,
+				844B12B11DF19220008E37C0 /* KullaniciHelper.swift */,
+			);
+			name = UygulamaHelper;
+			sourceTree = "<group>";
+		};
+		844B12B91DF1976B008E37C0 /* ServiceResponse */ = {
+			isa = PBXGroup;
+			children = (
+				844B12BA1DF19784008E37C0 /* KullaniciBilgileriniGetirResponse.swift */,
+			);
+			name = ServiceResponse;
+			sourceTree = "<group>";
+		};
+		844B12BC1DF197AF008E37C0 /* ServiceParameters */ = {
+			isa = PBXGroup;
+			children = (
+				844B12BD1DF197C3008E37C0 /* KullaniciBilgileriniGetirParameters.swift */,
+			);
+			name = ServiceParameters;
+			sourceTree = "<group>";
+		};
+		844B12BF1DF197FE008E37C0 /* ServiceConnectionClasses */ = {
+			isa = PBXGroup;
+			children = (
+				844B12C21DF198A3008E37C0 /* KullaniciBilgileriniGetirService.swift */,
+			);
+			name = ServiceConnectionClasses;
+			sourceTree = "<group>";
+		};
+		844B12C41DF198C2008E37C0 /* ServiceConnectionHelper */ = {
+			isa = PBXGroup;
+			children = (
+				844B12CD1DF1995A008E37C0 /* ServiceEnums */,
+				844B12C51DF198D3008E37C0 /* Interfaces */,
+				844B12BF1DF197FE008E37C0 /* ServiceConnectionClasses */,
+				844B12D61DF19B26008E37C0 /* ServiceBase.swift */,
+			);
+			name = ServiceConnectionHelper;
+			sourceTree = "<group>";
+		};
+		844B12C51DF198D3008E37C0 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				844B12C81DF19910008E37C0 /* Service */,
+				844B12C61DF198EB008E37C0 /* IOnTCJsonParser.swift */,
+				844B12D41DF19A37008E37C0 /* IOnTCServiceError.swift */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		844B12C81DF19910008E37C0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				844B12C91DF19920008E37C0 /* IKullaniciBilgileriniGetir.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		844B12CD1DF1995A008E37C0 /* ServiceEnums */ = {
+			isa = PBXGroup;
+			children = (
+				844B12CE1DF1996C008E37C0 /* EnumMethodlar.swift */,
+				844B12D01DF19980008E37C0 /* EnumAdresler.swift */,
+			);
+			name = ServiceEnums;
+			sourceTree = "<group>";
+		};
+		844B12D81DF19BA4008E37C0 /* KullaniciBilgi */ = {
+			isa = PBXGroup;
+			children = (
+				844B12D91DF19BB6008E37C0 /* KullaniciBilgiModel.swift */,
+			);
+			name = KullaniciBilgi;
+			sourceTree = "<group>";
+		};
+		844B12DB1DF19BCC008E37C0 /* BirimBolumYardimci */ = {
+			isa = PBXGroup;
+			children = (
+				844B12DC1DF19BD5008E37C0 /* BirimBolumYardimci.swift */,
+			);
+			name = BirimBolumYardimci;
+			sourceTree = "<group>";
+		};
+		844B12DE1DF19BF7008E37C0 /* NotificationTur */ = {
+			isa = PBXGroup;
+			children = (
+				844B12DF1DF19C00008E37C0 /* NotificationTurModel.swift */,
+			);
+			name = NotificationTur;
+			sourceTree = "<group>";
+		};
+		844B12E11DF19C25008E37C0 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				844B12E21DF19C35008E37C0 /* Ortak.swift */,
+			);
+			name = HelperClasses;
+			sourceTree = "<group>";
+		};
+		845CDA881E29949A0088B4F8 /* KarsilamaEkrani */ = {
+			isa = PBXGroup;
+			children = (
+				849D72421E1D9842000A2529 /* KarsilamaViewController.swift */,
+				845CDA891E2994E20088B4F8 /* KarsilamaEtkinlikTableViewCell.swift */,
+				845CDA8A1E2994E20088B4F8 /* KarsilamaEtkinlikTableViewCell.xib */,
+			);
+			name = KarsilamaEkrani;
+			sourceTree = "<group>";
+		};
+		84C260771DF6F2EB00A9E322 /* SoldanMenu */ = {
+			isa = PBXGroup;
+			children = (
+				846BFF771E2ABE4A009DE36C /* GirisYapTableViewCell.swift */,
+				846BFF781E2ABE4A009DE36C /* GirisYapTableViewCell.xib */,
+				84C260781DF6F32500A9E322 /* OnlineOdemeViewController.swift */,
+				84C2607A1DF6FC7D00A9E322 /* IletisimViewController.swift */,
+				84C2608B1DF707D300A9E322 /* MenuViewController.swift */,
+				84C2608D1DF70A7200A9E322 /* HeaderTableViewCell.swift */,
+				84C2608E1DF70A7200A9E322 /* HeaderTableViewCell.xib */,
+				84C260911DF70A8700A9E322 /* OnlineOdemeTableViewCell.swift */,
+				84C260921DF70A8700A9E322 /* OnlineOdemeTableViewCell.xib */,
+				84C260991DF7298300A9E322 /* IletisimTableViewCell.swift */,
+				84C2609A1DF7298300A9E322 /* IletisimTableViewCell.xib */,
+				84C260951DF70A9100A9E322 /* AyarlarTableViewCell.swift */,
+				84C260961DF70A9100A9E322 /* AyarlarTableViewCell.xib */,
+				84C2609D1DF7332E00A9E322 /* OturumuKapatTableViewCell.swift */,
+				84C2609E1DF7332E00A9E322 /* OturumuKapatTableViewCell.xib */,
+				84C260A11DF7365E00A9E322 /* AyarlarViewController.swift */,
+				84C260A51DF7384600A9E322 /* TabBarViewController.swift */,
+				849603541DFB463C00C2C68C /* CheckBoxTableViewCell.swift */,
+				849603551DFB463C00C2C68C /* CheckBoxTableViewCell.xib */,
+				849603581DFB485700C2C68C /* BagliBirimlerTableViewCell.swift */,
+				849603591DFB485700C2C68C /* BagliBirimlerTableViewCell.xib */,
+				8496035C1DFB486400C2C68C /* BildirimTurleriTableViewCell.swift */,
+				8496035D1DFB486400C2C68C /* BildirimTurleriTableViewCell.xib */,
+				84084BE01E1ED38000586EC5 /* AkademikTakvimTableViewCell.swift */,
+				84084BE11E1ED38000586EC5 /* AkademikTakvimTableViewCell.xib */,
+				84084BE41E1ED39300586EC5 /* PersonelAramaTableViewCell.swift */,
+				84084BE51E1ED39300586EC5 /* PersonelAramaTableViewCell.xib */,
+				84084BE81E1EDFD500586EC5 /* AkademikTakvimViewController.swift */,
+				8453B4A41E251B48001B97EC /* PersonelSoldanTableViewCell.swift */,
+				8453B4A51E251B48001B97EC /* PersonelSoldanTableViewCell.xib */,
+				84A9F4281E254912008F17C8 /* PersonelAramaViewController.swift */,
+			);
+			name = SoldanMenu;
+			sourceTree = "<group>";
+		};
+		84C2607C1DF6FFB100A9E322 /* SwiftFontello */ = {
+			isa = PBXGroup;
+			children = (
+				84C260811DF6FFF500A9E322 /* FarnhamDisplay-Regular.ttf */,
+				84C260821DF6FFF500A9E322 /* FarnhamDisplay-RegularItal.ttf */,
+				84C2607F1DF6FFEC00A9E322 /* fontawesome-webfont.ttf */,
+				84C2607D1DF6FFE500A9E322 /* fontello.ttf */,
+				84C260851DF7002000A9E322 /* Enum.swift */,
+				84C260871DF7004D00A9E322 /* SwiftFontello.swift */,
+				84C260891DF7008900A9E322 /* SwiftFontelloView.swift */,
+			);
+			name = SwiftFontello;
+			sourceTree = "<group>";
+		};
+		84D342371DFBF687007EE064 /* AkisTable */ = {
+			isa = PBXGroup;
+			children = (
+				84D342381DFBF69F007EE064 /* AkisTableViewController.swift */,
+				84904D2B1DFC878D00A98439 /* YemekTableViewCell.swift */,
+				84904D2C1DFC878D00A98439 /* YemekTableViewCell.xib */,
+				84B731561E01F2D700CC362F /* AkisViewController.swift */,
+				84B731581E02008B00CC362F /* NotObsTableViewCell.swift */,
+				84B731591E02008B00CC362F /* NotObsTableViewCell.xib */,
+				84B7315C1E02067900CC362F /* DuyuruTableViewCell.swift */,
+				84B7315D1E02067900CC362F /* DuyuruTableViewCell.xib */,
+				84B731601E020B6600CC362F /* HesapTableViewCell.swift */,
+				84B731611E020B6600CC362F /* HesapTableViewCell.xib */,
+				440283661E02807A00BBAE47 /* HaberTableViewCell.swift */,
+				440283671E02807A00BBAE47 /* HaberTableViewCell.xib */,
+				84A6306C1E02F05700B94E4F /* EtkinlikTableViewCell.swift */,
+				84A6306D1E02F05700B94E4F /* EtkinlikTableViewCell.xib */,
+				84A1B33E1E03E9260087816B /* SectionTableViewCell.swift */,
+				84A1B33F1E03E9260087816B /* SectionTableViewCell.xib */,
+			);
+			name = AkisTable;
+			sourceTree = "<group>";
+		};
+		84D3423A1DFC0A7F007EE064 /* MesajTable */ = {
+			isa = PBXGroup;
+			children = (
+				84D3423B1DFC0A8F007EE064 /* MesajTableViewController.swift */,
+				84D3423D1DFC0AFE007EE064 /* MesajTableViewCell.swift */,
+				84D3423E1DFC0AFE007EE064 /* MesajTableViewCell.xib */,
+				84106B7A1DFF27F100052407 /* MesajViewController.swift */,
+				84E69F4B1E26AF02009C2B4D /* Mesaj2TableViewCell.swift */,
+				84E69F4C1E26AF02009C2B4D /* Mesaj2TableViewCell.xib */,
+			);
+			name = MesajTable;
+			sourceTree = "<group>";
+		};
+		84D342411DFC5567007EE064 /* Birimler */ = {
+			isa = PBXGroup;
+			children = (
+				84D342421DFC557D007EE064 /* BirimlerViewController.swift */,
+				84F7621D1E26131400C73FC8 /* BirimAramaMapViewController.swift */,
+				84F7621F1E26144D00C73FC8 /* BirimAramaMapHeaderTableViewCell.swift */,
+				84F762201E26144D00C73FC8 /* BirimAramaMapHeaderTableViewCell.xib */,
+				84F762231E26155800C73FC8 /* BirimAramaMapTableViewCell.swift */,
+				84F762241E26155800C73FC8 /* BirimAramaMapTableViewCell.xib */,
+			);
+			name = Birimler;
+			sourceTree = "<group>";
+		};
+		B5F7840AD4EAB511F88978DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				666287F0D5F2574CCDE28335 /* Pods-MobilRemake.debug.xcconfig */,
+				917AF1E231E137CD9E74F591 /* Pods-MobilRemake.release.xcconfig */,
+				A5639804447B8D923FC0FC1F /* Pods-MobilRemakeTests.debug.xcconfig */,
+				DB56C41AF71220386AC4C45C /* Pods-MobilRemakeTests.release.xcconfig */,
+				463F603DE88A8C907FAF5A9A /* Pods-MobilRemakeUITests.debug.xcconfig */,
+				6B39E028501CC39C52D7781C /* Pods-MobilRemakeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844B12781DF18D70008E37C0 /* MobilRemake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844B12A11DF18D71008E37C0 /* Build configuration list for PBXNativeTarget "MobilRemake" */;
+			buildPhases = (
+				81F88CD985A4ADCBA18E088B /* [CP] Check Pods Manifest.lock */,
+				844B12751DF18D70008E37C0 /* Sources */,
+				844B12761DF18D70008E37C0 /* Frameworks */,
+				844B12771DF18D70008E37C0 /* Resources */,
+				4B1D5FD381EA1CFBA4B9627F /* [CP] Embed Pods Frameworks */,
+				A54F6CF070058B7F0BBA1982 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobilRemake;
+			productName = MobilRemake;
+			productReference = 844B12791DF18D71008E37C0 /* MobilRemake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		844B128C1DF18D71008E37C0 /* MobilRemakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844B12A41DF18D71008E37C0 /* Build configuration list for PBXNativeTarget "MobilRemakeTests" */;
+			buildPhases = (
+				6BB123ADB069EE2291B3942B /* [CP] Check Pods Manifest.lock */,
+				844B12891DF18D71008E37C0 /* Sources */,
+				844B128A1DF18D71008E37C0 /* Frameworks */,
+				844B128B1DF18D71008E37C0 /* Resources */,
+				3316260EE66C9BB00A270BB9 /* [CP] Embed Pods Frameworks */,
+				36D177C5629FC791A22139B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844B128F1DF18D71008E37C0 /* PBXTargetDependency */,
+			);
+			name = MobilRemakeTests;
+			productName = MobilRemakeTests;
+			productReference = 844B128D1DF18D71008E37C0 /* MobilRemakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		844B12971DF18D71008E37C0 /* MobilRemakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844B12A71DF18D71008E37C0 /* Build configuration list for PBXNativeTarget "MobilRemakeUITests" */;
+			buildPhases = (
+				BA444E0E055BC9EB0B123A6C /* [CP] Check Pods Manifest.lock */,
+				844B12941DF18D71008E37C0 /* Sources */,
+				844B12951DF18D71008E37C0 /* Frameworks */,
+				844B12961DF18D71008E37C0 /* Resources */,
+				1C02ED48107C2AA7B66A67D3 /* [CP] Copy Pods Resources */,
+				8F337F5BBF28E21FE504FBC7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844B129A1DF18D71008E37C0 /* PBXTargetDependency */,
+			);
+			name = MobilRemakeUITests;
+			productName = MobilRemakeUITests;
+			productReference = 844B12981DF18D71008E37C0 /* MobilRemakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844B12711DF18D70008E37C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = miragessee;
+				TargetAttributes = {
+					844B12781DF18D70008E37C0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4UVZ98Y2YU;
+						ProvisioningStyle = Automatic;
+					};
+					844B128C1DF18D71008E37C0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4UVZ98Y2YU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 844B12781DF18D70008E37C0;
+					};
+					844B12971DF18D71008E37C0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4UVZ98Y2YU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 844B12781DF18D70008E37C0;
+					};
+				};
+			};
+			buildConfigurationList = 844B12741DF18D70008E37C0 /* Build configuration list for PBXProject "MobilRemake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844B12701DF18D70008E37C0;
+			productRefGroup = 844B127A1DF18D71008E37C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844B12781DF18D70008E37C0 /* MobilRemake */,
+				844B128C1DF18D71008E37C0 /* MobilRemakeTests */,
+				844B12971DF18D71008E37C0 /* MobilRemakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844B12771DF18D70008E37C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C260981DF70A9100A9E322 /* AyarlarTableViewCell.xib in Resources */,
+				8496035F1DFB486400C2C68C /* BildirimTurleriTableViewCell.xib in Resources */,
+				845CDA8C1E2994E20088B4F8 /* KarsilamaEtkinlikTableViewCell.xib in Resources */,
+				844B12871DF18D71008E37C0 /* LaunchScreen.storyboard in Resources */,
+				84A1B3411E03E9260087816B /* SectionTableViewCell.xib in Resources */,
+				844B12841DF18D71008E37C0 /* Assets.xcassets in Resources */,
+				84904D2E1DFC878D00A98439 /* YemekTableViewCell.xib in Resources */,
+				84C260A01DF7332E00A9E322 /* OturumuKapatTableViewCell.xib in Resources */,
+				84C260841DF6FFF500A9E322 /* FarnhamDisplay-RegularItal.ttf in Resources */,
+				84C260801DF6FFEC00A9E322 /* fontawesome-webfont.ttf in Resources */,
+				84C260901DF70A7200A9E322 /* HeaderTableViewCell.xib in Resources */,
+				8496035B1DFB485700C2C68C /* BagliBirimlerTableViewCell.xib in Resources */,
+				844B12821DF18D71008E37C0 /* Main.storyboard in Resources */,
+				84084BE71E1ED39300586EC5 /* PersonelAramaTableViewCell.xib in Resources */,
+				8407B5121E074A580065FE53 /* FiltreleTableViewCell.xib in Resources */,
+				440283691E02807A00BBAE47 /* HaberTableViewCell.xib in Resources */,
+				84E69F4E1E26AF02009C2B4D /* Mesaj2TableViewCell.xib in Resources */,
+				84B731631E020B6600CC362F /* HesapTableViewCell.xib in Resources */,
+				84F762221E26144D00C73FC8 /* BirimAramaMapHeaderTableViewCell.xib in Resources */,
+				84D342401DFC0AFE007EE064 /* MesajTableViewCell.xib in Resources */,
+				84C260941DF70A8700A9E322 /* OnlineOdemeTableViewCell.xib in Resources */,
+				846BFF7A1E2ABE4A009DE36C /* GirisYapTableViewCell.xib in Resources */,
+				84C2609C1DF7298300A9E322 /* IletisimTableViewCell.xib in Resources */,
+				84C260831DF6FFF500A9E322 /* FarnhamDisplay-Regular.ttf in Resources */,
+				849603571DFB463C00C2C68C /* CheckBoxTableViewCell.xib in Resources */,
+				84B7315B1E02008B00CC362F /* NotObsTableViewCell.xib in Resources */,
+				8453B4A71E251B48001B97EC /* PersonelSoldanTableViewCell.xib in Resources */,
+				84B7315F1E02067900CC362F /* DuyuruTableViewCell.xib in Resources */,
+				84F762261E26155800C73FC8 /* BirimAramaMapTableViewCell.xib in Resources */,
+				84084BE31E1ED38000586EC5 /* AkademikTakvimTableViewCell.xib in Resources */,
+				84A6306F1E02F05700B94E4F /* EtkinlikTableViewCell.xib in Resources */,
+				84C2607E1DF6FFE500A9E322 /* fontello.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844B128B1DF18D71008E37C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844B12961DF18D71008E37C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C02ED48107C2AA7B66A67D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobilRemakeUITests/Pods-MobilRemakeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3316260EE66C9BB00A270BB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobilRemakeTests/Pods-MobilRemakeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36D177C5629FC791A22139B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobilRemakeTests/Pods-MobilRemakeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B1D5FD381EA1CFBA4B9627F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobilRemake/Pods-MobilRemake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BB123ADB069EE2291B3942B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81F88CD985A4ADCBA18E088B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F337F5BBF28E21FE504FBC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobilRemakeUITests/Pods-MobilRemakeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A54F6CF070058B7F0BBA1982 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobilRemake/Pods-MobilRemake-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA444E0E055BC9EB0B123A6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844B12751DF18D70008E37C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844B12B21DF19220008E37C0 /* KullaniciHelper.swift in Sources */,
+				84F7AA171E040932005119A4 /* BlurEffectWebViewController.swift in Sources */,
+				84C2608C1DF707D300A9E322 /* MenuViewController.swift in Sources */,
+				844B12B01DF191FC008E37C0 /* KullaniciKapaliHelper.swift in Sources */,
+				849603531DFB44FC00C2C68C /* VKCheckBox.swift in Sources */,
+				84A9F4291E254912008F17C8 /* PersonelAramaViewController.swift in Sources */,
+				84F7621E1E26131400C73FC8 /* BirimAramaMapViewController.swift in Sources */,
+				844B127F1DF18D71008E37C0 /* ViewController.swift in Sources */,
+				84084BE21E1ED38000586EC5 /* AkademikTakvimTableViewCell.swift in Sources */,
+				844B12BE1DF197C3008E37C0 /* KullaniciBilgileriniGetirParameters.swift in Sources */,
+				8453B4A61E251B48001B97EC /* PersonelSoldanTableViewCell.swift in Sources */,
+				84D342431DFC557D007EE064 /* BirimlerViewController.swift in Sources */,
+				844B12B81DF196F2008E37C0 /* ServiceMessageModel.swift in Sources */,
+				84B7315A1E02008B00CC362F /* NotObsTableViewCell.swift in Sources */,
+				440283681E02807A00BBAE47 /* HaberTableViewCell.swift in Sources */,
+				843841951E0A6509001CFED1 /* GradientView.swift in Sources */,
+				84C260861DF7002000A9E322 /* Enum.swift in Sources */,
+				84C2609B1DF7298300A9E322 /* IletisimTableViewCell.swift in Sources */,
+				844B12E01DF19C00008E37C0 /* NotificationTurModel.swift in Sources */,
+				844B12DA1DF19BB6008E37C0 /* KullaniciBilgiModel.swift in Sources */,
+				84D342391DFBF69F007EE064 /* AkisTableViewController.swift in Sources */,
+				84C260A61DF7384600A9E322 /* TabBarViewController.swift in Sources */,
+				84B7315E1E02067900CC362F /* DuyuruTableViewCell.swift in Sources */,
+				844B12D51DF19A37008E37C0 /* IOnTCServiceError.swift in Sources */,
+				84C2608A1DF7008900A9E322 /* SwiftFontelloView.swift in Sources */,
+				846BFF791E2ABE4A009DE36C /* GirisYapTableViewCell.swift in Sources */,
+				84C260931DF70A8700A9E322 /* OnlineOdemeTableViewCell.swift in Sources */,
+				849D72431E1D9842000A2529 /* KarsilamaViewController.swift in Sources */,
+				844B12B41DF19681008E37C0 /* SharedPreferencesHelper.swift in Sources */,
+				84C260881DF7004D00A9E322 /* SwiftFontello.swift in Sources */,
+				844B127D1DF18D71008E37C0 /* AppDelegate.swift in Sources */,
+				844B12D71DF19B26008E37C0 /* ServiceBase.swift in Sources */,
+				8407B50E1E0746B10065FE53 /* FiltreleViewController.swift in Sources */,
+				844B12CA1DF19920008E37C0 /* IKullaniciBilgileriniGetir.swift in Sources */,
+				844B12B61DF196C7008E37C0 /* JsonParser.swift in Sources */,
+				844B12CF1DF1996C008E37C0 /* EnumMethodlar.swift in Sources */,
+				844B12C71DF198EB008E37C0 /* IOnTCJsonParser.swift in Sources */,
+				849D72411E1D7237000A2529 /* LaunchViewController.swift in Sources */,
+				845DBF5B1DF4A8A700929A04 /* HexStringToUIColor.swift in Sources */,
+				84C2607B1DF6FC7D00A9E322 /* IletisimViewController.swift in Sources */,
+				84C2609F1DF7332E00A9E322 /* OturumuKapatTableViewCell.swift in Sources */,
+				844B12E51DF1A9A8008E37C0 /* Reachability.swift in Sources */,
+				8407B5111E074A580065FE53 /* FiltreleTableViewCell.swift in Sources */,
+				84B731621E020B6600CC362F /* HesapTableViewCell.swift in Sources */,
+				84C260A21DF7365E00A9E322 /* AyarlarViewController.swift in Sources */,
+				84C260791DF6F32500A9E322 /* OnlineOdemeViewController.swift in Sources */,
+				844B12D11DF19980008E37C0 /* EnumAdresler.swift in Sources */,
+				844B12AC1DF18FE3008E37C0 /* BaseViewController.swift in Sources */,
+				849603561DFB463C00C2C68C /* CheckBoxTableViewCell.swift in Sources */,
+				84F762211E26144D00C73FC8 /* BirimAramaMapHeaderTableViewCell.swift in Sources */,
+				84A1B3401E03E9260087816B /* SectionTableViewCell.swift in Sources */,
+				844B12C31DF198A3008E37C0 /* KullaniciBilgileriniGetirService.swift in Sources */,
+				84C2608F1DF70A7200A9E322 /* HeaderTableViewCell.swift in Sources */,
+				84F762251E26155800C73FC8 /* BirimAramaMapTableViewCell.swift in Sources */,
+				84D3423C1DFC0A8F007EE064 /* MesajTableViewController.swift in Sources */,
+				8496035E1DFB486400C2C68C /* BildirimTurleriTableViewCell.swift in Sources */,
+				844B12D31DF199E5008E37C0 /* BaseParameters.swift in Sources */,
+				84106B7B1DFF27F100052407 /* MesajViewController.swift in Sources */,
+				84A6306E1E02F05700B94E4F /* EtkinlikTableViewCell.swift in Sources */,
+				844B12E31DF19C35008E37C0 /* Ortak.swift in Sources */,
+				84E69F4D1E26AF02009C2B4D /* Mesaj2TableViewCell.swift in Sources */,
+				845CDA8B1E2994E20088B4F8 /* KarsilamaEtkinlikTableViewCell.swift in Sources */,
+				844B12BB1DF19784008E37C0 /* KullaniciBilgileriniGetirResponse.swift in Sources */,
+				84106B7D1DFF572600052407 /* BlurEffectViewController.swift in Sources */,
+				84D3423F1DFC0AFE007EE064 /* MesajTableViewCell.swift in Sources */,
+				84C260971DF70A9100A9E322 /* AyarlarTableViewCell.swift in Sources */,
+				84904D2D1DFC878D00A98439 /* YemekTableViewCell.swift in Sources */,
+				84084BE91E1EDFD500586EC5 /* AkademikTakvimViewController.swift in Sources */,
+				84B731571E01F2D700CC362F /* AkisViewController.swift in Sources */,
+				84084BE61E1ED39300586EC5 /* PersonelAramaTableViewCell.swift in Sources */,
+				8496035A1DFB485700C2C68C /* BagliBirimlerTableViewCell.swift in Sources */,
+				844B12DD1DF19BD5008E37C0 /* BirimBolumYardimci.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844B12891DF18D71008E37C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844B12921DF18D71008E37C0 /* MobilRemakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844B12941DF18D71008E37C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844B129D1DF18D71008E37C0 /* MobilRemakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844B128F1DF18D71008E37C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844B12781DF18D70008E37C0 /* MobilRemake */;
+			targetProxy = 844B128E1DF18D71008E37C0 /* PBXContainerItemProxy */;
+		};
+		844B129A1DF18D71008E37C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844B12781DF18D70008E37C0 /* MobilRemake */;
+			targetProxy = 844B12991DF18D71008E37C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844B12801DF18D71008E37C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844B12811DF18D71008E37C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844B12851DF18D71008E37C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844B12861DF18D71008E37C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844B129F1DF18D71008E37C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844B12A01DF18D71008E37C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844B12A21DF18D71008E37C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666287F0D5F2574CCDE28335 /* Pods-MobilRemake.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = MobilRemake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miragessee.MobilRemake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		844B12A31DF18D71008E37C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 917AF1E231E137CD9E74F591 /* Pods-MobilRemake.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = MobilRemake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miragessee.MobilRemake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		844B12A51DF18D71008E37C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5639804447B8D923FC0FC1F /* Pods-MobilRemakeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = MobilRemakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miragessee.MobilRemakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobilRemake.app/MobilRemake";
+			};
+			name = Debug;
+		};
+		844B12A61DF18D71008E37C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB56C41AF71220386AC4C45C /* Pods-MobilRemakeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = MobilRemakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miragessee.MobilRemakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobilRemake.app/MobilRemake";
+			};
+			name = Release;
+		};
+		844B12A81DF18D71008E37C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463F603DE88A8C907FAF5A9A /* Pods-MobilRemakeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = MobilRemakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miragessee.MobilRemakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MobilRemake;
+			};
+			name = Debug;
+		};
+		844B12A91DF18D71008E37C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B39E028501CC39C52D7781C /* Pods-MobilRemakeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = MobilRemakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miragessee.MobilRemakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MobilRemake;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844B12741DF18D70008E37C0 /* Build configuration list for PBXProject "MobilRemake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844B129F1DF18D71008E37C0 /* Debug */,
+				844B12A01DF18D71008E37C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844B12A11DF18D71008E37C0 /* Build configuration list for PBXNativeTarget "MobilRemake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844B12A21DF18D71008E37C0 /* Debug */,
+				844B12A31DF18D71008E37C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844B12A41DF18D71008E37C0 /* Build configuration list for PBXNativeTarget "MobilRemakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844B12A51DF18D71008E37C0 /* Debug */,
+				844B12A61DF18D71008E37C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844B12A71DF18D71008E37C0 /* Build configuration list for PBXNativeTarget "MobilRemakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844B12A81DF18D71008E37C0 /* Debug */,
+				844B12A91DF18D71008E37C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844B12711DF18D70008E37C0 /* Project object */;
+}

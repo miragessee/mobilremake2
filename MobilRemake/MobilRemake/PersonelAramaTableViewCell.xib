@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="71" id="KGk-i7-Jjw" customClass="PersonelAramaTableViewCell" customModule="MobilRemake" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="71"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bilgisayar Mühendisliği Bölüm Başkanlığı" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghg-SA-Ibw">
+                        <rect key="frame" x="66" y="39" width="245" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="245" id="1Fn-E2-6Cx"/>
+                            <constraint firstAttribute="height" constant="21" id="thk-Sa-U2b"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                        <color key="textColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KoR-X4-4MQ">
+                        <rect key="frame" x="305" y="22.5" width="30" height="30"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4DC-bn-0pe">
+                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M5o-5W-5wr" customClass="SwiftFontelloView" customModule="MobilRemake" customModuleProvider="target">
+                                        <rect key="frame" x="3.5" y="4.5" width="22" height="22"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="22" id="MkF-WP-k2F"/>
+                                            <constraint firstAttribute="height" constant="22" id="c19-EE-Ig8"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="iconCode" value="FTLMail"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="M5o-5W-5wr" firstAttribute="centerX" secondItem="4DC-bn-0pe" secondAttribute="centerX" id="3GQ-gc-9wT"/>
+                                    <constraint firstItem="M5o-5W-5wr" firstAttribute="centerY" secondItem="4DC-bn-0pe" secondAttribute="centerY" id="s4q-Vp-apO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="3AH-zE-tH4"/>
+                            <constraint firstAttribute="height" constant="30" id="7vk-Ro-jRS"/>
+                            <constraint firstItem="4DC-bn-0pe" firstAttribute="width" secondItem="KoR-X4-4MQ" secondAttribute="width" id="OKO-fp-OWN"/>
+                            <constraint firstItem="4DC-bn-0pe" firstAttribute="top" secondItem="KoR-X4-4MQ" secondAttribute="top" id="YZT-FC-Eu4"/>
+                            <constraint firstItem="4DC-bn-0pe" firstAttribute="leading" secondItem="KoR-X4-4MQ" secondAttribute="leading" id="bii-7W-8dM"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="cey-HS-zZX"/>
+                            <constraint firstItem="4DC-bn-0pe" firstAttribute="height" secondItem="KoR-X4-4MQ" secondAttribute="height" id="qHn-iK-Fto"/>
+                            <constraint firstAttribute="trailing" secondItem="4DC-bn-0pe" secondAttribute="trailing" id="rgT-XT-gFY"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="vEp-Do-AoH"/>
+                            <constraint firstAttribute="bottom" secondItem="4DC-bn-0pe" secondAttribute="bottom" id="xeg-Fl-3p7"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cPu-6y-qYO">
+                        <rect key="frame" x="340" y="22.5" width="30" height="30"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="14r-T6-Ne5">
+                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sfH-ju-xBL" customClass="SwiftFontelloView" customModule="MobilRemake" customModuleProvider="target">
+                                        <rect key="frame" x="4" y="4.5" width="22" height="22"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="22" id="P7x-6k-pUQ"/>
+                                            <constraint firstAttribute="height" constant="22" id="rGp-PN-tug"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="iconCode" value="FTLPhone1"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="sfH-ju-xBL" firstAttribute="centerX" secondItem="14r-T6-Ne5" secondAttribute="centerX" id="6wL-YV-PcB"/>
+                                    <constraint firstItem="sfH-ju-xBL" firstAttribute="centerY" secondItem="14r-T6-Ne5" secondAttribute="centerY" id="eNH-d9-bEr"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="14r-T6-Ne5" secondAttribute="trailing" id="0xH-8N-ZqF"/>
+                            <constraint firstAttribute="bottom" secondItem="14r-T6-Ne5" secondAttribute="bottom" id="63l-V9-2zL"/>
+                            <constraint firstItem="14r-T6-Ne5" firstAttribute="top" secondItem="cPu-6y-qYO" secondAttribute="top" id="70L-d8-3XP"/>
+                            <constraint firstAttribute="height" constant="30" id="CL9-u1-yZI"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Lns-6O-lDY"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="MLU-gg-1cY"/>
+                            <constraint firstItem="14r-T6-Ne5" firstAttribute="width" secondItem="cPu-6y-qYO" secondAttribute="width" id="RGq-M8-vCo"/>
+                            <constraint firstAttribute="width" constant="30" id="WKI-Hc-mmc"/>
+                            <constraint firstItem="14r-T6-Ne5" firstAttribute="height" secondItem="cPu-6y-qYO" secondAttribute="height" id="Xay-Q8-Czx"/>
+                            <constraint firstItem="14r-T6-Ne5" firstAttribute="leading" secondItem="cPu-6y-qYO" secondAttribute="leading" id="fZj-ar-sSA"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ecirfoto" translatesAutoresizingMaskIntoConstraints="NO" id="4BN-4S-2PW">
+                        <rect key="frame" x="8" y="10" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="muY-Mm-uWc"/>
+                            <constraint firstAttribute="height" constant="50" id="yRn-3n-cDm"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doç. Dr. Ecir Uğur KÜÇÜKSİLLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAY-fG-dnJ">
+                        <rect key="frame" x="66" y="10" width="245" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="245" id="Jjk-Ve-bwM"/>
+                            <constraint firstAttribute="height" constant="21" id="vsY-Q3-U4l"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mühendislik Fakültesi Dekanlığı" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ci-AN-yXI">
+                        <rect key="frame" x="65" y="25" width="245" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="245" id="NJU-oa-uqJ"/>
+                            <constraint firstAttribute="height" constant="21" id="VFY-w6-MiB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                        <color key="textColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="Ghg-SA-Ibw" secondAttribute="bottom" constant="2" id="2Ge-9w-YJR"/>
+                    <constraint firstItem="4BN-4S-2PW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="7yU-EO-89q"/>
+                    <constraint firstAttribute="bottom" secondItem="cPu-6y-qYO" secondAttribute="bottom" constant="17.5" id="BVz-HR-85G"/>
+                    <constraint firstItem="cPu-6y-qYO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="22.5" id="FEi-uD-UE4"/>
+                    <constraint firstItem="NAY-fG-dnJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="IA7-2D-40V"/>
+                    <constraint firstItem="KoR-X4-4MQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="14.5" id="NpV-ZW-hol"/>
+                    <constraint firstItem="cPu-6y-qYO" firstAttribute="leading" secondItem="KoR-X4-4MQ" secondAttribute="trailing" constant="5" id="Q1Z-eK-6M2"/>
+                    <constraint firstItem="0ci-AN-yXI" firstAttribute="leading" secondItem="4BN-4S-2PW" secondAttribute="trailing" constant="7" id="R95-N9-3UJ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="0ci-AN-yXI" secondAttribute="bottom" constant="16" id="U5T-r0-Hmg"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="KoR-X4-4MQ" secondAttribute="bottom" constant="9.5" id="UOb-aE-9GL"/>
+                    <constraint firstItem="0ci-AN-yXI" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Xgh-IV-SlW"/>
+                    <constraint firstItem="0ci-AN-yXI" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="YZ7-rA-0Aj"/>
+                    <constraint firstItem="Ghg-SA-Ibw" firstAttribute="top" secondItem="NAY-fG-dnJ" secondAttribute="bottom" constant="8" id="ZIr-Rh-cfS"/>
+                    <constraint firstItem="0ci-AN-yXI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="17" id="aVb-KV-ea8"/>
+                    <constraint firstAttribute="trailing" secondItem="cPu-6y-qYO" secondAttribute="trailing" constant="5" id="dAL-fv-bkH"/>
+                    <constraint firstItem="Ghg-SA-Ibw" firstAttribute="top" secondItem="NAY-fG-dnJ" secondAttribute="bottom" constant="8" id="eOS-Y0-WAj"/>
+                    <constraint firstItem="4BN-4S-2PW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="mOl-wi-xdq"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="4BN-4S-2PW" secondAttribute="bottom" constant="2" id="tDA-Jk-vbj"/>
+                    <constraint firstItem="Ghg-SA-Ibw" firstAttribute="leading" secondItem="4BN-4S-2PW" secondAttribute="trailing" constant="8" id="uqw-Nd-iuR"/>
+                    <constraint firstItem="NAY-fG-dnJ" firstAttribute="leading" secondItem="4BN-4S-2PW" secondAttribute="trailing" constant="8" id="vYr-JL-4oP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="fotoImageView" destination="4BN-4S-2PW" id="Wvg-pM-YoF"/>
+            </connections>
+            <point key="canvasLocation" x="32.5" y="-8.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ecirfoto" width="1140" height="760"/>
+    </resources>
+</document>
